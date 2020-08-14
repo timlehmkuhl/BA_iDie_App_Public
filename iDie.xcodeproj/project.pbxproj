@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0603CCE4242648F700B3DB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603CCE3242648F700B3DB77 /* AppDelegate.swift */; };
+		0603CCE6242648F700B3DB77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603CCE5242648F700B3DB77 /* SceneDelegate.swift */; };
+		0603CCEB242648F700B3DB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0603CCE9242648F700B3DB77 /* Main.storyboard */; };
+		0603CCED242648FB00B3DB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0603CCEC242648FB00B3DB77 /* Assets.xcassets */; };
+		0603CCF0242648FB00B3DB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0603CCEE242648FB00B3DB77 /* LaunchScreen.storyboard */; };
+		0603CCFA24264C5B00B3DB77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603CCF924264C5B00B3DB77 /* LoginViewController.swift */; };
+		0603CCFC242675A100B3DB77 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603CCFB242675A100B3DB77 /* DataManager.swift */; };
+		0603CD012426789A00B3DB77 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603CD002426789A00B3DB77 /* Account.swift */; };
+		0616288D24AFA07A007B5F59 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0616288C24AFA07A007B5F59 /* Assets */; };
+		061763DF245C55BD00B0450E /* FuneralDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763DE245C55BD00B0450E /* FuneralDetailsViewController.swift */; };
+		061763E1245D99EC00B0450E /* ChurchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763E0245D99EC00B0450E /* ChurchViewController.swift */; };
+		061763E3245D9A8B00B0450E /* FuneralFeastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763E2245D9A8B00B0450E /* FuneralFeastViewController.swift */; };
+		061763E5245F539D00B0450E /* EditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763E4245F539D00B0450E /* EditAccountViewController.swift */; };
+		061763E724643CD200B0450E /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763E624643CD200B0450E /* Examples.swift */; };
+		061763E9246D64C200B0450E /* AuthorityAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763E8246D64C200B0450E /* AuthorityAddViewController.swift */; };
+		061763EB246DD24E00B0450E /* AuthorityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763EA246DD24E00B0450E /* AuthorityListViewController.swift */; };
+		061763ED246DD41800B0450E /* Authority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763EC246DD41800B0450E /* Authority.swift */; };
+		061763EF2471B43A00B0450E /* Church.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763EE2471B43A00B0450E /* Church.swift */; };
+		061763F12472CA0D00B0450E /* FuneralFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061763F02472CA0D00B0450E /* FuneralFeast.swift */; };
+		061DC499242A925D0009C4E9 /* Pods_iDie.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F3FC64EEFC3598B347DACD6 /* Pods_iDie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		061DC49D242A97430009C4E9 /* OHMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061DC49A242A92FE0009C4E9 /* OHMySQL.framework */; };
+		064351E9244F1ACC0012A8FC /* OrganDonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064351E8244F1ACC0012A8FC /* OrganDonation.swift */; };
+		064351ED245080C60012A8FC /* OrganDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064351EC245080C60012A8FC /* OrganDonationViewController.swift */; };
+		064351EF245B00580012A8FC /* Funeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064351EE245B00580012A8FC /* Funeral.swift */; };
+		064351F1245B043F0012A8FC /* FuneralKindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064351F0245B043E0012A8FC /* FuneralKindViewController.swift */; };
+		06737D48242AB1B7006E1E94 /* OHMySQL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 061DC49A242A92FE0009C4E9 /* OHMySQL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06737D49242AB1E1006E1E94 /* OHMySQL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 061DC49A242A92FE0009C4E9 /* OHMySQL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06737D4D242FA638006E1E94 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06737D4C242FA638006E1E94 /* ContactListViewController.swift */; };
+		06737D4F242FA9A1006E1E94 /* ContactAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06737D4E242FA9A1006E1E94 /* ContactAddViewController.swift */; };
+		06737D51242FAA38006E1E94 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06737D50242FAA38006E1E94 /* Utils.swift */; };
+		06737D53243218A0006E1E94 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06737D52243218A0006E1E94 /* Contact.swift */; };
+		067C16A224392152009865A0 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067C16A124392152009865A0 /* CryptoSwift.framework */; };
+		067C16A324392152009865A0 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 067C16A124392152009865A0 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		067C16A5243A0DCD009865A0 /* HeritageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067C16A4243A0DCD009865A0 /* HeritageListViewController.swift */; };
+		067C16A7243A14D0009865A0 /* ChooseContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067C16A6243A14D0009865A0 /* ChooseContactsViewController.swift */; };
+		067C16A9243A1783009865A0 /* HeritageAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067C16A8243A1783009865A0 /* HeritageAddViewController.swift */; };
+		067C16AB243A6018009865A0 /* HeritageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067C16AA243A6018009865A0 /* HeritageViewController.swift */; };
+		0687C9D32434E16E001BA47D /* Heritage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687C9D22434E16E001BA47D /* Heritage.swift */; };
+		069C1EE124471F2600CF9EF1 /* Banking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C1EE024471F2600CF9EF1 /* Banking.swift */; };
+		069C1EE3244722A800CF9EF1 /* BankingAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C1EE2244722A800CF9EF1 /* BankingAddViewController.swift */; };
+		069C1EE524487A3A00CF9EF1 /* BankingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C1EE424487A3A00CF9EF1 /* BankingListViewController.swift */; };
+		069C1EE7244CC1A900CF9EF1 /* HeritageContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C1EE6244CC1A900CF9EF1 /* HeritageContactTableViewCell.swift */; };
+		06BEA6612427CAAD0025C0F9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BEA6602427CAAD0025C0F9 /* RegisterViewController.swift */; };
+		06BEA6652427E1AA0025C0F9 /* AccountOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BEA6642427E1AA0025C0F9 /* AccountOptionsViewController.swift */; };
+		06BEA669242A72C20025C0F9 /* Pods_iDie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3FC64EEFC3598B347DACD6 /* Pods_iDie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06F965F6243CA6BB00CCD6AE /* OnlineAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F965F5243CA6BB00CCD6AE /* OnlineAccount.swift */; };
+		06F965FA243D14BB00CCD6AE /* OnlineAccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F965F9243D14BB00CCD6AE /* OnlineAccountListViewController.swift */; };
+		06F965FC243D14D900CCD6AE /* OnlineAccountAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F965FB243D14D900CCD6AE /* OnlineAccountAddViewController.swift */; };
+		F22FB32CB66ECD78F5D0ECCD /* Pods_iDie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3FC64EEFC3598B347DACD6 /* Pods_iDie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		061DC497242A919E0009C4E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				06737D48242AB1B7006E1E94 /* OHMySQL.framework in CopyFiles */,
+				061DC499242A925D0009C4E9 /* Pods_iDie.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		06BEA66A242A72C20025C0F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				067C16A324392152009865A0 /* CryptoSwift.framework in Embed Frameworks */,
+				06737D49242AB1E1006E1E94 /* OHMySQL.framework in Embed Frameworks */,
+				06BEA669242A72C20025C0F9 /* Pods_iDie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0332358A42FB20DA75500B49 /* Pods-iDie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDie.release.xcconfig"; path = "Target Support Files/Pods-iDie/Pods-iDie.release.xcconfig"; sourceTree = "<group>"; };
+		0603CCE0242648F700B3DB77 /* iDie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0603CCE3242648F700B3DB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0603CCE5242648F700B3DB77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0603CCEA242648F700B3DB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0603CCEC242648FB00B3DB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0603CCEF242648FB00B3DB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0603CCF1242648FB00B3DB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0603CCF924264C5B00B3DB77 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0603CCFB242675A100B3DB77 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0603CD002426789A00B3DB77 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		0616288C24AFA07A007B5F59 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		061763DE245C55BD00B0450E /* FuneralDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralDetailsViewController.swift; sourceTree = "<group>"; };
+		061763E0245D99EC00B0450E /* ChurchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchViewController.swift; sourceTree = "<group>"; };
+		061763E2245D9A8B00B0450E /* FuneralFeastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralFeastViewController.swift; sourceTree = "<group>"; };
+		061763E4245F539D00B0450E /* EditAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountViewController.swift; sourceTree = "<group>"; };
+		061763E624643CD200B0450E /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		061763E8246D64C200B0450E /* AuthorityAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityAddViewController.swift; sourceTree = "<group>"; };
+		061763EA246DD24E00B0450E /* AuthorityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityListViewController.swift; sourceTree = "<group>"; };
+		061763EC246DD41800B0450E /* Authority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authority.swift; sourceTree = "<group>"; };
+		061763EE2471B43A00B0450E /* Church.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Church.swift; sourceTree = "<group>"; };
+		061763F02472CA0D00B0450E /* FuneralFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralFeast.swift; sourceTree = "<group>"; };
+		061DC49A242A92FE0009C4E9 /* OHMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OHMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		064351E8244F1ACC0012A8FC /* OrganDonation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganDonation.swift; sourceTree = "<group>"; };
+		064351EA244F237B0012A8FC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		064351EB244F237C0012A8FC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		064351EC245080C60012A8FC /* OrganDonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganDonationViewController.swift; sourceTree = "<group>"; };
+		064351EE245B00580012A8FC /* Funeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funeral.swift; sourceTree = "<group>"; };
+		064351F0245B043E0012A8FC /* FuneralKindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralKindViewController.swift; sourceTree = "<group>"; };
+		06737D4C242FA638006E1E94 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		06737D4E242FA9A1006E1E94 /* ContactAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAddViewController.swift; sourceTree = "<group>"; };
+		06737D50242FAA38006E1E94 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		06737D52243218A0006E1E94 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		067C16A124392152009865A0 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		067C16A4243A0DCD009865A0 /* HeritageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageListViewController.swift; sourceTree = "<group>"; };
+		067C16A6243A14D0009865A0 /* ChooseContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseContactsViewController.swift; sourceTree = "<group>"; };
+		067C16A8243A1783009865A0 /* HeritageAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageAddViewController.swift; sourceTree = "<group>"; };
+		067C16AA243A6018009865A0 /* HeritageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageViewController.swift; sourceTree = "<group>"; };
+		0687C9D22434E16E001BA47D /* Heritage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heritage.swift; sourceTree = "<group>"; };
+		069C1EE024471F2600CF9EF1 /* Banking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking.swift; sourceTree = "<group>"; };
+		069C1EE2244722A800CF9EF1 /* BankingAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingAddViewController.swift; sourceTree = "<group>"; };
+		069C1EE424487A3A00CF9EF1 /* BankingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingListViewController.swift; sourceTree = "<group>"; };
+		069C1EE6244CC1A900CF9EF1 /* HeritageContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageContactTableViewCell.swift; sourceTree = "<group>"; };
+		06BEA6602427CAAD0025C0F9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		06BEA6642427E1AA0025C0F9 /* AccountOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOptionsViewController.swift; sourceTree = "<group>"; };
+		06F965F5243CA6BB00CCD6AE /* OnlineAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineAccount.swift; sourceTree = "<group>"; };
+		06F965F9243D14BB00CCD6AE /* OnlineAccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineAccountListViewController.swift; sourceTree = "<group>"; };
+		06F965FB243D14D900CCD6AE /* OnlineAccountAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineAccountAddViewController.swift; sourceTree = "<group>"; };
+		1F3FC64EEFC3598B347DACD6 /* Pods_iDie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5011A1A51FC24B7CDA9502 /* Pods-iDie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDie.debug.xcconfig"; path = "Target Support Files/Pods-iDie/Pods-iDie.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0603CCDD242648F700B3DB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067C16A224392152009865A0 /* CryptoSwift.framework in Frameworks */,
+				061DC49D242A97430009C4E9 /* OHMySQL.framework in Frameworks */,
+				F22FB32CB66ECD78F5D0ECCD /* Pods_iDie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0603CCD7242648F700B3DB77 = {
+			isa = PBXGroup;
+			children = (
+				0616288C24AFA07A007B5F59 /* Assets */,
+				0603CCE2242648F700B3DB77 /* iDie */,
+				0603CCE1242648F700B3DB77 /* Products */,
+				E2BECDCFAF0610572615DECF /* Pods */,
+				3941EC14E7F6F177DE05E7DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0603CCE1242648F700B3DB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0603CCE0242648F700B3DB77 /* iDie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0603CCE2242648F700B3DB77 /* iDie */ = {
+			isa = PBXGroup;
+			children = (
+				06737D4B242B8E92006E1E94 /* View Controller */,
+				06737D4A242B8E74006E1E94 /* View */,
+				0603CCFD242675EB00B3DB77 /* Model */,
+				0603CCE3242648F700B3DB77 /* AppDelegate.swift */,
+				0603CCE5242648F700B3DB77 /* SceneDelegate.swift */,
+				0603CCEC242648FB00B3DB77 /* Assets.xcassets */,
+				0603CCF1242648FB00B3DB77 /* Info.plist */,
+				06737D50242FAA38006E1E94 /* Utils.swift */,
+			);
+			path = iDie;
+			sourceTree = "<group>";
+		};
+		0603CCFD242675EB00B3DB77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0603CCFB242675A100B3DB77 /* DataManager.swift */,
+				0603CD002426789A00B3DB77 /* Account.swift */,
+				06737D52243218A0006E1E94 /* Contact.swift */,
+				0687C9D22434E16E001BA47D /* Heritage.swift */,
+				06F965F5243CA6BB00CCD6AE /* OnlineAccount.swift */,
+				069C1EE024471F2600CF9EF1 /* Banking.swift */,
+				069C1EE6244CC1A900CF9EF1 /* HeritageContactTableViewCell.swift */,
+				064351E8244F1ACC0012A8FC /* OrganDonation.swift */,
+				064351EE245B00580012A8FC /* Funeral.swift */,
+				061763EC246DD41800B0450E /* Authority.swift */,
+				061763EE2471B43A00B0450E /* Church.swift */,
+				061763F02472CA0D00B0450E /* FuneralFeast.swift */,
+				061763E624643CD200B0450E /* Examples.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06737D4A242B8E74006E1E94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0603CCE9242648F700B3DB77 /* Main.storyboard */,
+				0603CCEE242648FB00B3DB77 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06737D4B242B8E92006E1E94 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0603CCF924264C5B00B3DB77 /* LoginViewController.swift */,
+				06BEA6602427CAAD0025C0F9 /* RegisterViewController.swift */,
+				06BEA6642427E1AA0025C0F9 /* AccountOptionsViewController.swift */,
+				061763E4245F539D00B0450E /* EditAccountViewController.swift */,
+				067C16AA243A6018009865A0 /* HeritageViewController.swift */,
+				06F965F9243D14BB00CCD6AE /* OnlineAccountListViewController.swift */,
+				06F965FB243D14D900CCD6AE /* OnlineAccountAddViewController.swift */,
+				067C16A4243A0DCD009865A0 /* HeritageListViewController.swift */,
+				067C16A8243A1783009865A0 /* HeritageAddViewController.swift */,
+				069C1EE424487A3A00CF9EF1 /* BankingListViewController.swift */,
+				069C1EE2244722A800CF9EF1 /* BankingAddViewController.swift */,
+				061763EA246DD24E00B0450E /* AuthorityListViewController.swift */,
+				061763E8246D64C200B0450E /* AuthorityAddViewController.swift */,
+				064351EC245080C60012A8FC /* OrganDonationViewController.swift */,
+				064351F0245B043E0012A8FC /* FuneralKindViewController.swift */,
+				061763DE245C55BD00B0450E /* FuneralDetailsViewController.swift */,
+				061763E0245D99EC00B0450E /* ChurchViewController.swift */,
+				061763E2245D9A8B00B0450E /* FuneralFeastViewController.swift */,
+				06737D4C242FA638006E1E94 /* ContactListViewController.swift */,
+				06737D4E242FA9A1006E1E94 /* ContactAddViewController.swift */,
+				067C16A6243A14D0009865A0 /* ChooseContactsViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		3941EC14E7F6F177DE05E7DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067C16A124392152009865A0 /* CryptoSwift.framework */,
+				061DC49A242A92FE0009C4E9 /* OHMySQL.framework */,
+				1F3FC64EEFC3598B347DACD6 /* Pods_iDie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BECDCFAF0610572615DECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A5011A1A51FC24B7CDA9502 /* Pods-iDie.debug.xcconfig */,
+				0332358A42FB20DA75500B49 /* Pods-iDie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0603CCDF242648F700B3DB77 /* iDie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0603CCF4242648FB00B3DB77 /* Build configuration list for PBXNativeTarget "iDie" */;
+			buildPhases = (
+				C1F493939AD1C8FD27B10274 /* [CP] Check Pods Manifest.lock */,
+				0603CCDC242648F700B3DB77 /* Sources */,
+				0603CCDD242648F700B3DB77 /* Frameworks */,
+				0603CCDE242648F700B3DB77 /* Resources */,
+				13B3FA5CED8C2B050DD4A25C /* [CP] Embed Pods Frameworks */,
+				06BEA66A242A72C20025C0F9 /* Embed Frameworks */,
+				061DC497242A919E0009C4E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDie;
+			productName = iDie;
+			productReference = 0603CCE0242648F700B3DB77 /* iDie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0603CCD8242648F700B3DB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tim Michael Lehmkuhl";
+				TargetAttributes = {
+					0603CCDF242648F700B3DB77 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0603CCDB242648F700B3DB77 /* Build configuration list for PBXProject "iDie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				Base,
+			);
+			mainGroup = 0603CCD7242648F700B3DB77;
+			productRefGroup = 0603CCE1242648F700B3DB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0603CCDF242648F700B3DB77 /* iDie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0603CCDE242648F700B3DB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0603CCF0242648FB00B3DB77 /* LaunchScreen.storyboard in Resources */,
+				0616288D24AFA07A007B5F59 /* Assets in Resources */,
+				0603CCED242648FB00B3DB77 /* Assets.xcassets in Resources */,
+				0603CCEB242648F700B3DB77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13B3FA5CED8C2B050DD4A25C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDie/Pods-iDie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDie/Pods-iDie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDie/Pods-iDie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F493939AD1C8FD27B10274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0603CCDC242648F700B3DB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069C1EE124471F2600CF9EF1 /* Banking.swift in Sources */,
+				06F965FA243D14BB00CCD6AE /* OnlineAccountListViewController.swift in Sources */,
+				06737D53243218A0006E1E94 /* Contact.swift in Sources */,
+				0687C9D32434E16E001BA47D /* Heritage.swift in Sources */,
+				064351ED245080C60012A8FC /* OrganDonationViewController.swift in Sources */,
+				06737D4D242FA638006E1E94 /* ContactListViewController.swift in Sources */,
+				0603CCFA24264C5B00B3DB77 /* LoginViewController.swift in Sources */,
+				0603CCFC242675A100B3DB77 /* DataManager.swift in Sources */,
+				064351EF245B00580012A8FC /* Funeral.swift in Sources */,
+				061763E9246D64C200B0450E /* AuthorityAddViewController.swift in Sources */,
+				06F965F6243CA6BB00CCD6AE /* OnlineAccount.swift in Sources */,
+				064351E9244F1ACC0012A8FC /* OrganDonation.swift in Sources */,
+				061763F12472CA0D00B0450E /* FuneralFeast.swift in Sources */,
+				067C16A9243A1783009865A0 /* HeritageAddViewController.swift in Sources */,
+				064351F1245B043F0012A8FC /* FuneralKindViewController.swift in Sources */,
+				06BEA6612427CAAD0025C0F9 /* RegisterViewController.swift in Sources */,
+				0603CCE4242648F700B3DB77 /* AppDelegate.swift in Sources */,
+				0603CCE6242648F700B3DB77 /* SceneDelegate.swift in Sources */,
+				061763E1245D99EC00B0450E /* ChurchViewController.swift in Sources */,
+				067C16AB243A6018009865A0 /* HeritageViewController.swift in Sources */,
+				069C1EE524487A3A00CF9EF1 /* BankingListViewController.swift in Sources */,
+				061763E3245D9A8B00B0450E /* FuneralFeastViewController.swift in Sources */,
+				061763ED246DD41800B0450E /* Authority.swift in Sources */,
+				067C16A5243A0DCD009865A0 /* HeritageListViewController.swift in Sources */,
+				06F965FC243D14D900CCD6AE /* OnlineAccountAddViewController.swift in Sources */,
+				061763E724643CD200B0450E /* Examples.swift in Sources */,
+				06BEA6652427E1AA0025C0F9 /* AccountOptionsViewController.swift in Sources */,
+				0603CD012426789A00B3DB77 /* Account.swift in Sources */,
+				069C1EE3244722A800CF9EF1 /* BankingAddViewController.swift in Sources */,
+				061763E5245F539D00B0450E /* EditAccountViewController.swift in Sources */,
+				06737D4F242FA9A1006E1E94 /* ContactAddViewController.swift in Sources */,
+				067C16A7243A14D0009865A0 /* ChooseContactsViewController.swift in Sources */,
+				061763EB246DD24E00B0450E /* AuthorityListViewController.swift in Sources */,
+				061763EF2471B43A00B0450E /* Church.swift in Sources */,
+				061763DF245C55BD00B0450E /* FuneralDetailsViewController.swift in Sources */,
+				06737D51242FAA38006E1E94 /* Utils.swift in Sources */,
+				069C1EE7244CC1A900CF9EF1 /* HeritageContactTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0603CCE9242648F700B3DB77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0603CCEA242648F700B3DB77 /* Base */,
+				064351EA244F237B0012A8FC /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0603CCEE242648FB00B3DB77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0603CCEF242648FB00B3DB77 /* Base */,
+				064351EB244F237C0012A8FC /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0603CCF2242648FB00B3DB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0603CCF3242648FB00B3DB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0603CCF5242648FB00B3DB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5011A1A51FC24B7CDA9502 /* Pods-iDie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVL46Q4957;
+				INFOPLIST_FILE = iDie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tim.iDie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0603CCF6242648FB00B3DB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0332358A42FB20DA75500B49 /* Pods-iDie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YVL46Q4957;
+				INFOPLIST_FILE = iDie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tim.iDie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0603CCDB242648F700B3DB77 /* Build configuration list for PBXProject "iDie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0603CCF2242648FB00B3DB77 /* Debug */,
+				0603CCF3242648FB00B3DB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0603CCF4242648FB00B3DB77 /* Build configuration list for PBXNativeTarget "iDie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0603CCF5242648FB00B3DB77 /* Debug */,
+				0603CCF6242648FB00B3DB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0603CCD8242648F700B3DB77 /* Project object */;
+}

@@ -1,0 +1,249 @@
+
+/* Class = "UILabel"; text = "iDie"; ObjectID = "090-Sz-dDK"; */
+"090-Sz-dDK.text" = "iDie";
+
+/* Class = "UILabel"; text = "Für den Fall, dass nach meinem Tod eine Spende von Organen/Geweben zur\nTransplantation in Frage kommt, erkläre ich:"; ObjectID = "0a0-6w-RFm"; */
+"0a0-6w-RFm.text" = "Für den Fall, dass nach meinem Tod eine Spende von Organen/Geweben zur\nTransplantation in Frage kommt, erkläre ich:";
+
+/* Class = "UIButton"; normalTitle = "Debug-Login"; ObjectID = "1C3-Wm-uoc"; */
+"1C3-Wm-uoc.normalTitle" = "Debug-Login";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "1pB-CT-IYN"; */
+"1pB-CT-IYN.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "Soziale Netzwerke"; ObjectID = "2as-r1-I14"; */
+"2as-r1-I14.normalTitle" = "Soziale Netzwerke";
+
+/* Class = "UINavigationItem"; title = "Kontakte wählen"; ObjectID = "2lk-DV-mf6"; */
+"2lk-DV-mf6.title" = "Kontakte wählen";
+
+/* Class = "UITextField"; placeholder = "(optinal)"; ObjectID = "3KC-2m-s5N"; */
+"3KC-2m-s5N.placeholder" = "(optinal)";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "5S7-eL-rVL"; */
+"5S7-eL-rVL.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Jetzt Registrieren"; ObjectID = "5Uw-1S-0uG"; */
+"5Uw-1S-0uG.normalTitle" = "Jetzt Registrieren";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "6JP-3p-Vq9"; */
+"6JP-3p-Vq9.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Passwort"; ObjectID = "7Jp-wn-7MB"; */
+"7Jp-wn-7MB.text" = "Passwort";
+
+/* Class = "UINavigationItem"; title = "Kontakte"; ObjectID = "7nW-Zb-2vw"; */
+"7nW-Zb-2vw.title" = "Kontakte";
+
+/* Class = "UILabel"; text = "Bemerkungen"; ObjectID = "8gs-rR-WHc"; */
+"8gs-rR-WHc.text" = "Bemerkungen";
+
+/* Class = "UILabel"; text = "Einen neuen Account anlegen"; ObjectID = "8sz-KO-sRm"; */
+"8sz-KO-sRm.text" = "Einen neuen Account anlegen";
+
+/* Class = "UILabel"; text = "Benutzername"; ObjectID = "925-a0-R2K"; */
+"925-a0-R2K.text" = "Benutzername";
+
+/* Class = "UITabBarItem"; title = "Profil"; ObjectID = "9hL-7D-EtH"; */
+"9hL-7D-EtH.title" = "Profil";
+
+/* Class = "UITextField"; placeholder = "Persönliches Passwort"; ObjectID = "A4E-ps-gMb"; */
+"A4E-ps-gMb.placeholder" = "Persönliches Passwort";
+
+/* Class = "UITabBarItem"; title = "Kontakte"; ObjectID = "AXt-ia-vNH"; */
+"AXt-ia-vNH.title" = "Kontakte";
+
+/* Class = "UILabel"; text = "Status:"; ObjectID = "Agb-en-Yl3"; */
+"Agb-en-Yl3.text" = "Status:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ApR-JC-owg"; */
+"ApR-JC-owg.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Abbrechen"; ObjectID = "Ax2-kk-JNN"; */
+"Ax2-kk-JNN.title" = "Abbrechen";
+
+/* Class = "UILabel"; text = "IBAN"; ObjectID = "BYi-bC-CDZ"; */
+"BYi-bC-CDZ.text" = "IBAN";
+
+/* Class = "UILabel"; text = "Botschaft:"; ObjectID = "C3g-ZZ-XYA"; */
+"C3g-ZZ-XYA.text" = "Botschaft:";
+
+/* Class = "UIButton"; normalTitle = "Registrieren"; ObjectID = "D2J-rS-Scq"; */
+"D2J-rS-Scq.normalTitle" = "Registrieren";
+
+/* Class = "UILabel"; text = "Email-Adresse"; ObjectID = "DBs-Dc-yQ1"; */
+"DBs-Dc-yQ1.text" = "Email-Adresse";
+
+/* Class = "UITextField"; placeholder = "Passwort für Vertraute"; ObjectID = "FEI-2M-aJ8"; */
+"FEI-2M-aJ8.placeholder" = "Passwort für Vertraute";
+
+/* Class = "UINavigationItem"; title = "Registrieren"; ObjectID = "FRh-yZ-Tk1"; */
+"FRh-yZ-Tk1.title" = "Registrieren";
+
+/* Class = "UITabBarItem"; title = "Bestattung"; ObjectID = "JTn-qi-2US"; */
+"JTn-qi-2US.title" = "Bestattung";
+
+/* Class = "UINavigationItem"; title = "Banking"; ObjectID = "L5y-SW-Z4J"; */
+"L5y-SW-Z4J.title" = "Banking";
+
+/* Class = "UILabel"; text = "Besonderheiten"; ObjectID = "LVN-ME-A4C"; */
+"LVN-ME-A4C.text" = "Besonderheiten";
+
+/* Class = "UILabel"; text = "Kontostand"; ObjectID = "LfO-qH-TnN"; */
+"LfO-qH-TnN.text" = "Kontostand";
+
+/* Class = "UINavigationItem"; title = "Social Media"; ObjectID = "Lhw-a6-F5b"; */
+"Lhw-a6-F5b.title" = "Social Media";
+
+/* Class = "UILabel"; text = "Einladen:"; ObjectID = "MF3-wu-cth"; */
+"MF3-wu-cth.text" = "Einladen:";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "N26-y3-hOG"; */
+"N26-y3-hOG.text" = "Subtitle";
+
+/* Class = "UITextField"; placeholder = "Art Auswählen"; ObjectID = "N93-N3-Jb4"; */
+"N93-N3-Jb4.placeholder" = "Art Auswählen";
+
+/* Class = "UIBarButtonItem"; title = "Abbrechen"; ObjectID = "NdN-Gf-j56"; */
+"NdN-Gf-j56.title" = "Abbrechen";
+
+/* Class = "UIButton"; normalTitle = "Banken"; ObjectID = "P0W-CG-HA9"; */
+"P0W-CG-HA9.normalTitle" = "Banken";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "Qs0-rM-BxY"; */
+"Qs0-rM-BxY.normalTitle" = "Logout";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QyX-f6-oHi"; */
+"QyX-f6-oHi.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "R1u-8h-xHp"; */
+"R1u-8h-xHp.title" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Speichern"; ObjectID = "RkB-fS-2gn"; */
+"RkB-fS-2gn.title" = "Speichern";
+
+/* Class = "UILabel"; text = "Bezeichnung"; ObjectID = "RqD-CB-eH2"; */
+"RqD-CB-eH2.text" = "Bezeichnung";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "TAh-LL-JyK"; */
+"TAh-LL-JyK.placeholder" = "Email";
+
+/* Class = "UITabBarItem"; title = "Nachlass"; ObjectID = "U8M-Ew-BAY"; */
+"U8M-Ew-BAY.title" = "Nachlass";
+
+/* Class = "UILabel"; text = "Plattform"; ObjectID = "VY4-xw-UDP"; */
+"VY4-xw-UDP.text" = "Plattform";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Vkx-OJ-EUT"; */
+"Vkx-OJ-EUT.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Erbgegenstände"; ObjectID = "WZP-2H-6dh"; */
+"WZP-2H-6dh.title" = "Erbgegenstände";
+
+/* Class = "UIButton"; normalTitle = "Vollmachten"; ObjectID = "WsL-Sd-kvt"; */
+"WsL-Sd-kvt.normalTitle" = "Vollmachten";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "XHy-V9-HY1"; */
+"XHy-V9-HY1.text" = "Title";
+
+/* Class = "UILabel"; text = "Erbberechtigte"; ObjectID = "YPT-T5-hd1"; */
+"YPT-T5-hd1.text" = "Erbberechtigte";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "YY8-Jd-Vyt"; */
+"YY8-Jd-Vyt.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Bestattungsablauf"; ObjectID = "Z7s-ia-DPh"; */
+"Z7s-ia-DPh.normalTitle" = "Bestattungsablauf";
+
+/* Class = "UILabel"; text = "BIC"; ObjectID = "Zf5-t0-lbz"; */
+"Zf5-t0-lbz.text" = "BIC";
+
+/* Class = "UIButton"; normalTitle = "Online Accounts"; ObjectID = "aTG-MF-ai5"; */
+"aTG-MF-ai5.normalTitle" = "Online Accounts";
+
+/* Class = "UIButton"; normalTitle = "Organspende"; ObjectID = "anL-6R-iJ5"; */
+"anL-6R-iJ5.normalTitle" = "Organspende";
+
+/* Class = "UILabel"; text = "Erster Buchstabe"; ObjectID = "beS-xS-QIk"; */
+"beS-xS-QIk.text" = "Erster Buchstabe";
+
+/* Class = "UINavigationItem"; title = "Kontakt hinzufügen"; ObjectID = "cwl-Am-Try"; */
+"cwl-Am-Try.title" = "Kontakt hinzufügen";
+
+/* Class = "UINavigationItem"; title = "Organspende"; ObjectID = "fag-Zy-XPC"; */
+"fag-Zy-XPC.title" = "Organspende";
+
+/* Class = "UIBarButtonItem"; title = "Speichern"; ObjectID = "hHH-c5-JI7"; */
+"hHH-c5-JI7.title" = "Speichern";
+
+/* Class = "UILabel"; text = "Letzer Buchstabe"; ObjectID = "iNf-dw-4Mq"; */
+"iNf-dw-4Mq.text" = "Letzer Buchstabe";
+
+/* Class = "UIBarButtonItem"; title = "Abbrechen"; ObjectID = "iZi-Tt-PDM"; */
+"iZi-Tt-PDM.title" = "Abbrechen";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "jB2-Ml-xia"; */
+"jB2-Ml-xia.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Konto-Art"; ObjectID = "jLj-1b-Q8x"; */
+"jLj-1b-Q8x.text" = "Konto-Art";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "kBP-45-rQG"; */
+"kBP-45-rQG.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kLF-KQ-8li"; */
+"kLF-KQ-8li.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Erbe"; ObjectID = "kil-Re-mhz"; */
+"kil-Re-mhz.normalTitle" = "Erbe";
+
+/* Class = "UILabel"; text = "Bank"; ObjectID = "lS0-4I-7aG"; */
+"lS0-4I-7aG.text" = "Bank";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nE7-On-8mo"; */
+"nE7-On-8mo.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Debug-Vertrauten-Login"; ObjectID = "o3n-WB-3Qt"; */
+"o3n-WB-3Qt.normalTitle" = "Debug-Vertrauten-Login";
+
+/* Class = "UIBarButtonItem"; title = "Speichern"; ObjectID = "owl-R8-2bG"; */
+"owl-R8-2bG.title" = "Speichern";
+
+/* Class = "UIButton"; normalTitle = "Art der Bestattung"; ObjectID = "pAK-Pn-iSD"; */
+"pAK-Pn-iSD.normalTitle" = "Art der Bestattung";
+
+/* Class = "UIBarButtonItem"; title = "Abbrechen"; ObjectID = "pax-zF-L8u"; */
+"pax-zF-L8u.title" = "Abbrechen";
+
+/* Class = "UIBarButtonItem"; title = "Abbrechen"; ObjectID = "pzn-jd-5M5"; */
+"pzn-jd-5M5.title" = "Abbrechen";
+
+/* Class = "UINavigationItem"; title = "Erbgegenstand"; ObjectID = "qUU-bS-ACJ"; */
+"qUU-bS-ACJ.title" = "Erbgegenstand";
+
+/* Class = "UITextField"; placeholder = "Passwort"; ObjectID = "s26-Q6-hxe"; */
+"s26-Q6-hxe.placeholder" = "Passwort";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "tpi-tr-mur"; */
+"tpi-tr-mur.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "xCk-L1-L0U"; */
+"xCk-L1-L0U.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "xcX-v1-gl6"; */
+"xcX-v1-gl6.text" = "Name:";
+
+/* Class = "UIBarButtonItem"; title = "Auswählen"; ObjectID = "xet-Zo-jqb"; */
+"xet-Zo-jqb.title" = "Auswählen";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "y4Y-u0-z23"; */
+"y4Y-u0-z23.title" = "Zurück";
+
+/* Class = "UILabel"; text = "Letzer Post"; ObjectID = "ybS-hx-3Va"; */
+"ybS-hx-3Va.text" = "Letzer Post";
+
+/* Class = "UILabel"; text = "Verwalte deine Bestattung \n und deinen Nachlass!"; ObjectID = "zPp-TE-9Yq"; */
+"zPp-TE-9Yq.text" = "Verwalte deine Bestattung \n und deinen Nachlass!";
+
+/* Class = "UILabel"; text = "Noch keinen Account?"; ObjectID = "zZk-eO-yE0"; */
+"zZk-eO-yE0.text" = "Noch keinen Account?";
